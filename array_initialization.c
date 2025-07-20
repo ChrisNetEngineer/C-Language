@@ -8,7 +8,23 @@ int main(){
 
     int ages[5] = {0};
 
-    printf();
+    printf("\nScore array:\n");
+    for(int i=0;i<5;i++){
+        printf("scores[%d] = %d\n", i, scores[i]);
+    }
+
+    printf("\nTemperatures array:\n");
+    for(int i=0;i<5;i++){
+        printf("temperatures[%d] = %d\n",i, temperature[i]);
+    }
+
+    printf("\nAges array:\n");
+    for(int i=0;i<5;i++){
+        printf("ages[%d] = %d\n",i, ages[i]);
+    }
+
+
+
 
     return 0;
 }
